@@ -6,7 +6,7 @@ PODS:
   - EXJSONUtils (0.13.1)
   - EXManifests (0.14.3):
     - ExpoModulesCore
-  - Expo (51.0.37):
+  - Expo (51.0.38):
     - ExpoModulesCore
   - expo-dev-client (4.0.28):
     - EXManifests
@@ -225,7 +225,7 @@ PODS:
     - ExpoModulesCore
   - ExpoKeepAwake (13.0.2):
     - ExpoModulesCore
-  - ExpoModulesCore (1.12.25):
+  - ExpoModulesCore (1.12.26):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -282,11 +282,11 @@ PODS:
   - hermes-engine (0.74.5):
     - hermes-engine/Pre-built (= 0.74.5)
   - hermes-engine/Pre-built (0.74.5)
-  - outbrain-react-native (0.4.3):
+  - outbrain-react-native (0.6.0):
     - DoubleConversion
     - glog
     - hermes-engine
-    - OutbrainSDK (~> 5.1.1)
+    - OutbrainSDK (~> 5.2.1)
     - RCT-Folly (= 2024.01.01.00)
     - RCTRequired
     - RCTTypeSafety
@@ -304,7 +304,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - OutbrainSDK (5.1.1)
+  - OutbrainSDK (5.2.1)
   - RCT-Folly (2024.01.01.00):
     - boost
     - DoubleConversion
@@ -1613,7 +1613,7 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - OutbrainSDK
     - SocketRocket
 
@@ -1780,7 +1780,7 @@ SPEC CHECKSUMS:
   EXConstants: 409690fbfd5afea964e5e9d6c4eb2c2b59222c59
   EXJSONUtils: 30c17fd9cc364d722c0946a550dfbf1be92ef6a4
   EXManifests: c1fab4c3237675e7b0299ea8df0bcb14baca4f42
-  Expo: 67b60b3b80a3c8e9f3bcaaa84d06d140229a246d
+  Expo: 9b6666ef2fedcfc89c5b9be2aa1ce12b81f9e7f5
   expo-dev-client: e25e1c63686cc097d9701354e475b2b60038b83b
   expo-dev-launcher: 8a308596a1a2fa9c4480eccdb8d0c1d1035bbfdf
   expo-dev-menu: 9c3004c35de890a799fd88f73b106c5e2c5b6d6d
@@ -1790,7 +1790,7 @@ SPEC CHECKSUMS:
   ExpoFont: 00756e6c796d8f7ee8d211e29c8b619e75cbf238
   ExpoHead: fcb28a68ed4ba28f177394d2dfb8a0a8824cd103
   ExpoKeepAwake: 3b8815d9dd1d419ee474df004021c69fdd316d08
-  ExpoModulesCore: 0e7d4d5c13169bbbd53496721d811adbcc5d600a
+  ExpoModulesCore: 831ece8311a489418746925820bbffdda587d6f4
   ExpoSystemUI: d4f065a016cae6721b324eb659cdee4d4cf0cb26
   ExpoWebBrowser: 7595ccac6938eb65b076385fd23d035db9ecdc8e
   EXSplashScreen: 17a656c08a0095be15b620c52e61dfdb665863d2
@@ -1799,8 +1799,8 @@ SPEC CHECKSUMS:
   fmt: 4c2741a687cc09f0634a2e2c72a838b99f1ff120
   glog: fdfdfe5479092de0c4bdbebedd9056951f092c4f
   hermes-engine: 8c1577f3fdb849cbe7729c2e7b5abc4b845e88f8
-  outbrain-react-native: 2e36aff04064c667df7b882d1b0a681b069b054c
-  OutbrainSDK: 302c401163ba44b5f5eec9dca894396949a4df5f
+  outbrain-react-native: 737c7355d441f13c8e96c605dc4dddbe66e40e72
+  OutbrainSDK: c9d572aac50ad17fe58d681160c53fd715dfbcbc
   RCT-Folly: 02617c592a293bd6d418e0a88ff4ee1f88329b47
   RCTDeprecation: 3afceddffa65aee666dafd6f0116f1d975db1584
   RCTRequired: ec1239bc9d8bf63e10fb92bd8b26171a9258e0c1
@@ -1855,6 +1855,6 @@ SPEC CHECKSUMS:
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 950bbfd7e6f04790fdb51149ed51df41f329fcc8
 
-PODFILE CHECKSUM: 9b92ee680b9c1effcf5298ea2ed3a4a13fc1414b
+PODFILE CHECKSUM: 7390ba2db578d81574638367aee4f97c6e05dde8
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.1
